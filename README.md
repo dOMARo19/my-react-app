@@ -1,9 +1,3 @@
-# React + Vite
-
-Ось переклад README.md файлу українською мовою:
-
----
-
 # my-react-app
 
 Це проект на React, створений за допомогою Vite.
@@ -24,11 +18,9 @@ my-react-app/
 │   ├── App.tsx
 │   ├── assets/
 │   │   └── react.svg
-│   ├── DisplayMessage.tsx
 │   ├── index.css
 │   ├── main.jsx
-│   ├── Random.tsx
-│   └── randomizer.ts
+│   ├── UncontrolledLoginForm.tsx
 └── vite.config.js
 ```
 
@@ -78,19 +70,11 @@ npm run lint
 
 ### `App.tsx`
 
-Головний компонент додатку. Він включає компоненти `Random` та `DisplayMessage`.
+Головний компонент додатку. Він включає компонент `UncontrolledLoginForm`.
 
-### `Random.tsx`
+### `UncontrolledLoginForm.tsx`
 
-Компонент, який генерує та відображає випадкове число. Він використовує функцію `randomizer` з файлу `randomizer.ts`.
-
-### `DisplayMessage.tsx`
-
-Компонент без стану, який відображає повідомлення, передане через пропси.
-
-### `randomizer.ts`
-
-Утилітна функція, яка генерує випадкове число від 0 до 100.
+Компонент форми з неконтрольованими інпутами для введення імені користувача та пароля.
 
 ---
 
